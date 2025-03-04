@@ -1,0 +1,7 @@
+langchain
+openai
+groq
+requests
+python-dotenv
+wikipedia-api
+serpapi

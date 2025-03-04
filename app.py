@@ -9,10 +9,10 @@ import os
 # Set up API keys (ensure you have them in your environment variables)
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 # Set the SerpAPI key as an environment variable
-os.environ["SERPAPI_API_KEY"] = 'a0f535f7e8e9e5022c69b0565f573d5d58701b6f81d168f5a3e90abc6298c5b5'
+SERPAPI_API_KEY =os.getenv("SERPAPI_API_KEY")
 
 # Create the SerpAPI tool
-serpapi_tool = SerpAPIWrapper()
+serpapi_tool = SerpAPIWrapper(serpapi_api_key=SERPAPI_API_KEY)
 
 # Initialize the language model
 llm = OpenAI(api_key=OPENAI_API_KEY, temperature=0.7)
