@@ -15,7 +15,7 @@ This project is an AI-powered blog generation system that utilizes LangChain, Op
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/blog-generator.git
+git clone https://github.com/Aniket9977/Upnyx.git
 cd blog-generator
 ```
 
